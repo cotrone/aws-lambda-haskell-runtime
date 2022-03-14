@@ -58,7 +58,7 @@ library
       QuasiQuotes
   ghc-options: -Wall -optP-Wno-nonportable-include-path -Wincomplete-uni-patterns -Wincomplete-record-updates -Wcompat -Widentities -Wredundant-constraints -Wmissing-export-lists -Wpartial-fields -fhide-source-paths -freverse-errors
   build-depends:
-      aeson
+      aeson ==1.5.6.0
     , base >=4.7 && <5
     , bytestring
     , case-insensitive

@@ -18,7 +18,7 @@ dependencies:
 
 library:
   dependencies:
-    - aeson
+    - aeson == 1.5.6.0
     - bytestring
     - http-client
     - http-types
