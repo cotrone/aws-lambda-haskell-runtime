@@ -5,7 +5,7 @@ cabal-version: 1.12
 -- see: https://github.com/sol/hpack
 
 name:           aws-lambda-haskell-runtime
-version:        4.2.0
+version:        4.1.1
 synopsis:       Haskell runtime for AWS Lambda
 description:    Please see the README on GitHub at <https://github.com/theam/aws-lambda-haskell-runtime#readme>
 category:       AWS
@@ -58,7 +58,7 @@ library
       QuasiQuotes
   ghc-options: -Wall -optP-Wno-nonportable-include-path -Wincomplete-uni-patterns -Wincomplete-record-updates -Wcompat -Widentities -Wredundant-constraints -Wmissing-export-lists -Wpartial-fields -fhide-source-paths -freverse-errors
   build-depends:
-      aeson ==1.5.6.0
+      aeson >= 1.5.0.0 && <= 1.5.6.0
     , base >=4.7 && <5
     , bytestring
     , case-insensitive
